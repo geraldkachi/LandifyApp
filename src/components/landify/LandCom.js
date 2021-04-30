@@ -13,7 +13,7 @@ const LandCom = () => {
   return (
     <>
       <hr className="w-75" />
-      <Container className="container text-center mx-auto my-5">
+      <Container className="container text-center mx-auto my-3">
         <Row>
           <Col>
             <Airbnb className=" my-3" />

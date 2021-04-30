@@ -52,19 +52,20 @@ import { ReactComponent as Well } from "../../assest/images/well.svg";
 const LandTailor = () => {
   return (
     <>
+    <div className="min-vh-100">
       <LandCom />
-      <div className="text-center">
+      <div className="text-center mt-5">
         <h2 className="h2" style={{ fontSize: "48px" }}>
           Tailor-made features
         </h2>
-        <div className="text-lead container mx-auto">
+        <div className="text-lead container mx-auto" style={{width:"540px"}}>
           Lorem ipsum is common placeholder text used to demonstrate the graphic
           elements of a document or visual presentation.
         </div>
         {/*  */}
       </div>
       {/*  */}
-      <div className="text-center container row my-3 mx-auto justify-content-center align-items-center">
+      <div className="text-center container row mt-5 mx-auto justify-content-center align-items-center">
         <div className="col-md-4 my-4">
         <Roboust className="my-2 " />
         <h5 className="my-2">Robust workflow</h5>
@@ -102,7 +103,7 @@ const LandTailor = () => {
         </div>
         </div>
         {/*  */}
-        <div className="col-md-4 my-4">
+        <div className="col-md-4 mt-2">
         <Multiple className="my-2 " />
         <h5 className="my-2">Robust workflow</h5>
         <div
@@ -138,6 +139,7 @@ const LandTailor = () => {
         </div>
         </div>
         {/*  */}
+      </div>
       </div>
       {/* <LandTailorFeat data={data} /> */}
     </>
